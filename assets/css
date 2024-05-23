@@ -1,24 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 p {
     border-style: outset;
-    border-width: 5px;
+    border-width: 10px;
     border-color: antiquewhite;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-size: large;
     font-style: italic;
     background-color: #0be816; /* Change this to the desired background color */
+    background-color: rgb(240, 208, 26);
+    font-family: "IBM Plex Sans KR", sans-serif;
+    line-height: 1.6;
+    padding: 10px;
 }
 
 /* Header styling */
 header {
-    background: #13ee67;
-    color: white;
-    padding: 10px 2rgb(44, 25, 185)
+    background: #18c058;
+    color: rgb(197, 64, 64);
+    padding: 20px 2rgb(44, 25, 185)
+    border; border-radius: 10px;
+    line-height: 1.6;
+    padding: 10px;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -31,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(246, 236, 236);
+    color: rgb(241, 234, 234);
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,7 +65,7 @@ section {
 }
 
 .flex-container {
-    display: flex;
+    display: inline-flex;
 }
 
 /* Box styling */
@@ -61,7 +74,6 @@ section {
     height: 400px;
     background-color: lightblue;
     border: 10px solid lightgreen;
-    border-bottom: 2px dotted #1C6EA4;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 10px; /* Space between each box */
@@ -69,8 +81,8 @@ section {
 
 /* Footer styling */
 footer {
-    background: #333;
-    color: white;
+    background: #207b9d;
+    color: rgb(68, 219, 55);
     padding: 20px;
 }
 
