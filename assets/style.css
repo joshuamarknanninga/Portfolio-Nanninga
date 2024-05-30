@@ -1,0 +1,98 @@
+p {
+    border-style: outset;
+    border-width: 5px;
+    border-color: antiquewhite;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    background-color: #0be816; /* Change this to the desired background color */
+}
+
+/* Header styling */
+header {
+    background: #13ee67;
+    color: white;
+    padding: 10px 2rgb(44, 25, 185)
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(246, 236, 236);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* Box styling */
+.box {
+    width: 1000px;
+    height: 400px;
+    background-color: lightblue;
+    border: 10px solid lightgreen;
+    border-bottom: 2px dotted #1C6EA4;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px; /* Space between each box */
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left {
+    padding: 20px;
+    flex: 1;
+}
+
+.footer-right {
+    display: 100px;
+    gap: 50px;
+}
+
+.footer-right p, .footer-right a {
+    margin-left: 20px; /* Add spacing between contact details */
+}
+
+.contact-me {
+    font-size: 24px; /* Large font size for "CONTACT ME" */
+}
